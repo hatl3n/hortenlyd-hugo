@@ -1,0 +1,30 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ $.Site.Params.description }}" />
+    <meta name="author" content="Alexander Hatlen" />
+    <meta name="google-site-verification" content="cjJ1ZMPBAsovO9OCdZ-Rqp8Gpekw-uy2tJo3xdun2P8" />
+    <meta name="keywords" content="lyd, lydutleie, lys, lysutleie, scene, event, arrangement, fest, julebord, disco, konsert, PA, utleie, party, horten, vestfold, østlandet" />
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <!-- Custom style for this template. -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var $backstretch_images =  [ "https://hortenlyd.no/wp-content/uploads/2014/10/10612603-10152365163034366-4296870869516947945-n.jpg", "https://hortenlyd.no/wp-content/uploads/2014/10/IMG-1429-1200x900.jpg", "https://hortenlyd.no/wp-content/uploads/2014/09/1479037-10151870013329366-372820523-n.jpg" ];
+        var $backstretch_texts = [
+            { title: "Horten Roots & Reggae", sub_text: "Full produksjon" },
+            { title: "Kanalrock", sub_text: "Full produksjon (Foto: Jan-Kristian Schriwer)" },
+            { title: "La Salle de Dans", sub_text: "Lydteknikk på Bakkenteigen Kulturhus" }
+        ];
+    </script>
+  </head>

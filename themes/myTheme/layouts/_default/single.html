@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            {{ with index (.Resources.ByType "image") 0 }}
+            <img class="img-responsive" src="{{ .RelPermalink }}" alt="produktbilde"><br />
+            {{ end }}
+            {{ with .Params.pris }}
+            <span class="label label-success" style="font-size: 20px;">Kr. {{ . }},-/døgn</span>
+            {{ end }}
+        </div>
+        <div class="col-xs-12 col-md-8">
+
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

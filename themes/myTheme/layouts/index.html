@@ -1,0 +1,95 @@
+{{ define "main" }}
+<!-- Backstretched fullscreen carousel -->
+
+<div class="container-fluid fullheight hidden-xs">
+	<div class="row-fluid fullheight">
+		<div class="fullheight">
+			<div id="backstretch">
+			</div>
+			<a class="notalink" href="#">
+				<div id="backstretch-prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</div>
+			</a>
+			<div id="backstretch-overlay">
+				<h1 class="bildetittel"></h1>
+				<br><br>
+				<h3 class="sub-text"></h3>
+			</div>
+			<div id="backstretch-overlay-down-arrow">
+				<a href="#home" class="notalink">
+					<span class="glyphicon glyphicon-circle-arrow-down"></span>
+					<span>Fortsett ned</span>
+					<span class="glyphicon glyphicon-circle-arrow-down"></span>
+				</a>
+			</div>
+			<a class="notalink" href="#">
+				<div id="backstretch-next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</div>
+			</a>
+		</div> <!-- ./fullheight -->
+	</div> <!-- ./row-fluid fullheight -->
+</div> <!-- ./container-fluid fullheight -->
+
+<div id="home" class="container">
+	<!-- Three columns of text below the carousel -->
+	<div class="row givemeair"></div>
+	<div class="jumbotron">
+		<h1>Velkommen til {{ .Site.Title }}</h1>
+		<p>Vi leverer lyd og lys til ditt arrangement, uansett om det er bryllup, firmafest eller festival!</p>
+		<p>Se våre pakketilbud under, eller finn kategorien for ditt arrangementet lenger nede på siden.</p>
+		<p>Eller, se <a href="#kontakt-oss">kontaktinformasjon </a> og få et skreddersydd tilbud til dine behov!</p>
+	</div>
+	<div id="lydpakker" class="row givemeair"></div>
+	<div class="row">
+		{{ with $.Site.GetPage "section" "lydpakker" }}
+		{{ range .Pages }}
+		<hr class="hidden-sm hidden-md hidden-lg">
+		<div class="col-xs-12 col-sm-3">
+			<div class="text-center">
+				<a class="notalink-black" href="{{ .RelPermalink }}" role="button">
+					{{ with index (.Resources.ByType "image") 0 }}
+					<img class="img-circle" width="150" height="150" src="{{ .RelPermalink }}" alt="Illustrasjonsbilde">
+					{{ end }}
+					<h2>{{ .Title }}</h2>
+				</a>
+			</div> <!-- ./text-center -->
+			{{ .Description | safeHTML }}
+			<p>
+				{{ with .Params.pris }}
+				<span class="label label-success prislapp">Kr. {{ . }},-</span>
+				{{ end }}
+				<a class="btn btn-default" href="{{ .RelPermalink }}" role="button">View details &raquo;</a>
+			</p>
+		</div><!-- /.col-xs-6 col-sm-3 -->
+		{{ end }}
+		{{ end }}
+	</div><!-- /.row -->
+
+	<!-- START THE "FEATURETTES" -->
+
+	<hr id="tjenester">
+
+	<div class="row no-gutter">
+		{{ with $.Site.GetPage "section" "tjenester" }}
+		{{ range .Pages }}
+		<a class="featurette-link" href="{{ .RelPermalink }}">
+			<div class="col-sm-6 featurette">
+				<img class="img-responsive featurette-img" src="tjenester/Featurette-holder1.jpg"
+					alt="Illustrasjonsbilde">
+				<div class="featurette-overlay">
+					<h1 class="featurette-overlay-text">{{ .Title }}</h1>
+					<h4 class="featurette-overlay-text">{{ .Description }}</h4>
+				</div> <!-- ./featurette-overlay -->
+			</div>
+		</a> <!-- ./col-sm-6 -->
+		{{ end }}
+		{{ end }}
+
+	</div> <!-- ./row -->
+
+	<!-- /END THE FEATURETTES -->
+
+</div><!-- /.container id=home -->
+{{ end }}

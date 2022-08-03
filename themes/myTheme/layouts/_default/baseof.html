@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body data-spy="scroll" data-target="#navigasjon" data-offset="80">
+        {{- partial "header.html" . -}}
+
+        {{- block "main" . }}{{- end }}
+
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    </body>
+</html>

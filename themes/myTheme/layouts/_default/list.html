@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+        {{ $index := 0 }}
+        {{ range .Pages }}
+        {{ $index = add $index 1 }}
+        <div class="col-sm-6 col-xs-12 col-padding-20">
+
+            {{ with index (.Resources.ByType "image") 0 }}
+            <img class="img-responsive" style="margin: 20px;" width="150px" src="{{ .RelPermalink }}"
+                alt="Illustrasjonsbilde">
+            {{ end }}
+            {{ with .Params.pris }}
+            <span class="label label-success" style="font-size: 20px;">Kr. {{ . }},-/døgn</span>
+            {{ end }}
+            <a href="{{ .RelPermalink }}">
+                <h1>{{ .Title }}</h1>
+            </a>
+            {{ .Description | safeHTML }}
+
+        </div>
+        {{ if eq (mod $index 2) 0 }}
+        <div class="clearfix"></div>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
