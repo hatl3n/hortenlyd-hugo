@@ -1,3 +1,4 @@
 # Ignore all dot-preprended files
 .*
 !.*/
+/public
