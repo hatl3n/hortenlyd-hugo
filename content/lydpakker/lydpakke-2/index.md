@@ -1,20 +1,19 @@
 ---
 title: "Lydpakke 2"
-description: "Dette er en utvidet versjon av Lydpakke 1, som gir mer bass for musikk. Toppene plasseres på stang oppå bunnkassen. Gir bedre opplevelse for musikk og kan spille for fler, <strong>musikk for minst 100 personer.</strong>"
+description: "Dette er en proff-utgave av Lydpakke 1, som kan levere mye høyere lyd. Gir bedre opplevelse for musikk og kan spille for fler, <strong>musikk for ca 100 personer.</strong>"
 bildeurl: lydpakker/lydpakke-2.jpg
-pris: 2990
+pris: 1990
 ---
 
-**Dette er en utvidet versjon av Lydpakke 1, som gir mer bass for musikk. Toppene plasseres på stang oppå bunnkassen. Gir bedre opplevelse for musikk og kan spille for fler, musikk for minst 100 personer.**
+**Dette er en proff versjon av Lydpakke 1, som benytter høyttalere vi bruker til mindre konserter. Gir bedre opplevelse for musikk og kan spille for fler, musikk for ca 100 personer.**
 
 <!--more-->
 
-> Enkelt sagt: “To høyttalere på stang oppå bunnkasser, knall all-round musikkpakke til de fleste fester”
+> Enkelt sagt: “To svært gode høyttalere på stativ, knall all-round musikkpakke til de fleste fester”
 
 Denne pakken inneholder:
 
 - 2 profesjonelle toppkasser, Yamaha DXR12 eller tilsvarende
-- 2 profesjonelle bunnkasser, QSC KW181 eller tilsvarende
 - Kan leveres med blåtann-løsning eller kabel (minijack, iPhone, USB-C)
 - Levere med kablet mikrofon på stativ inkludert i prisen
 - Nødvendige ledninger, valgfri lengde mellom høyttalerne
