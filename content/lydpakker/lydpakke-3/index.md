@@ -1,25 +1,22 @@
 ---
-title: Lydpakke 3
-description: "Denne pakken er utvidet for opptil 350 personer. Her har du anlegget du trenger for å virkelig lage fest, så vi slenger også med noen fargede lys."
-pris: 3500
+title: "Lydpakke 3"
+description: "Dette er en utvidet versjon av Lydpakke 2, som gir mer bass for musikk. Toppene plasseres på stang oppå bunnkassen. Gir bedre opplevelse for musikk og kan spille for fler, <strong>musikk for minst 100 personer.</strong>"
+bildeurl: lydpakker/lydpakke-2.jpg
+pris: 2990
 ---
 
-**Denne pakken er utvidet for opptil 350 personer. Her har du anlegget du trenger for å virkelig lage fest, så vi slenger også med noen fargede lys.**
+**Dette er en utvidet versjon av Lydpakke 2, som gir mer bass for musikk. Toppene plasseres på stang oppå bunnkassen. Gir bedre opplevelse for musikk og kan spille for fler, musikk for minst 100 personer.**
 
-    Enkelt sagt: “Rockeanlegg med seriøst trøkk!”
+<!--more-->
 
-    Dette anlegget ble brukt til "lillescenen" på Kanalrock-festivalen!
+> Enkelt sagt: “To høyttalere på stang oppå basskasser, knall all-round musikkpakke til de fleste fester”
 
-Dette er vår største ferdigsydde lydpakke, selvom vi selvfølgelig leverer større ved forespørsel. Denne pakken inneholder:
+Denne pakken inneholder:
 
-    2 passsive toppkasser for godt bærende lydtrykk (EV T252)
-    4 passive bunnkasser
-        RCF Event 1018"
-    Flightcase på hjul med forsterkere og prosessering.
-    Enkelt analogt mikserbord etter behov
-        kan leveres med band-oppsett (tillegg)
-        kan leveres med DJ-oppsett (tillegg)
-    Nødvendige ledninger, valgfri lengde mellom høyttalerne
-    4 fargede lys-kanner
+- 2 profesjonelle høyttalere, Yamaha DXR12 eller tilsvarende
+- 2 profesjonelle basskasser, QSC KW181 eller tilsvarende
+- Kan leveres med blåtann-løsning eller kabel (minijack, iPhone, USB-C)
+- Levere med kablet mikrofon på stativ inkludert i prisen
+- Nødvendige ledninger, valgfri lengde mellom høyttalerne
 
-Ta kontakt for tilpassing av pakken! Husk at dette er en "hent-og-gjør-selv-pakke", tross størrelsen. Ta kontakt for en hyggelig samtale og et uforpliktende tilbud for å gjøre pakken om til en full produksjon, eller bare transport, transport og rigging - eller hva enn annet du skulle ønske. OBS: Denne pakken leveres kun mot 100% depositum! 
+Pakken kan naturligvis utvides enkelt med fler mikrofoner, mer bass eller lignende. Vi tilpasser pakken til hva du trenger! 
