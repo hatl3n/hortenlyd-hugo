@@ -14,10 +14,9 @@ bildeurl: lydpakker/lydpakke-1.png
 
 Denne pakken inneholder:
 
-- 2 høyttalere på stativ, EV ZLX-12P eller Yamaha DXR12
-- Lite og enkelt miksebord med;
-  - Ledning for iphone/mp3-spiller/lignende
+- 2 aktive høyttalere på stativ
+- Mulighet for batteridrift!
+- Blåtann-løsning eller ledning for iphone/mp3-spiller/lignende
         og sang-/talemikrofon (Shure SM58) med stativ
-  - Nødvendige ledninger, valgfri lengde mellom høyttalerne
 
 Pakken kan naturligvis utvides enkelt med fler mikrofoner eller lignende. Vi tilpasser pakken til hva du trenger!
